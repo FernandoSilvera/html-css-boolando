@@ -11,6 +11,7 @@ body {
 
 main {
 	padding: calc(60px + 1.5em);
+	padding-bottom: 0;
 }
 
 .container {
@@ -48,10 +49,11 @@ header {
 	width: 100%;
 	padding: 1em;
 	position: fixed;
+	z-index: 1;
 	background-color: rgb(255, 100, 43);
 }
 
-header li {
+li {
 	display: inline-block;
 	padding-right: 0.5em;
 	font-weight: 600;
@@ -62,8 +64,29 @@ img {
 	height: 100%;
 }
 
+footer {
+	min-height: 100px;
+	padding: 2em;
+}
+h3 {
+	padding-bottom: 0.5em;
+}
+
+footer li {
+	font-size: 13px;
+	font-weight: normal;
+}
+
 main .flex-row {
 	gap: 15px;
+}
+
+main .gap-small {
+	gap: 5px;
+}
+
+footer .icon {
+	margin: 0;
 }
 
 .header-logo {
@@ -74,18 +97,24 @@ main .flex-row {
 	min-width: 160px;
 }
 
-.header-icon {
+.icon {
 	width: 15px;
 	margin: 0 5px;
 }
 
 .product {
 	flex-grow: 1;
+	position: relative;
+	z-index: 0;
 }
 
 .image {
 	height: 440px;
 	margin-bottom: 5px;
+}
+
+.mrg-top-small {
+	margin-top: 5px;
 }
 
 /* STYLES ---------- */
@@ -97,6 +126,47 @@ main .flex-row {
 	color: red;
 }
 
+.bg-black {
+	background-color: rgb(26, 26, 26);
+}
+
+.bg-red {
+	background-color: red;
+}
+
+.bg-green {
+	background-color: green;
+}
+
 .linethrough {
 	text-decoration: line-through;
+}
+
+/* TEST TEST TEST TEST TEST */
+.favorite {
+	width: 40px;
+	position: absolute;
+	top: 1em;
+	right: 0em;
+	background-color: white;
+}
+
+.fav-icon {
+	display: block;
+	width: 25px;
+	margin: 5px auto;
+}
+
+.tags {
+	min-width: 40px;
+	position: absolute;
+	bottom: 6em;
+}
+
+.discount {
+	padding: 5px;
+}
+
+.tag {
+	padding: 5px;
 }
