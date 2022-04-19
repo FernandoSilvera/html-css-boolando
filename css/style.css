@@ -170,3 +170,15 @@ footer .icon {
 .tag {
 	padding: 5px;
 }
+
+.img-hover {
+	display: none;
+}
+
+.product:hover .img-hover {
+	display: inline-block;
+}
+
+.product:hover .img-normal {
+	display: none;
+}
