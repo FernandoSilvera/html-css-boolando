@@ -14,5 +14,39 @@ body {
   max-width: 960px;
   min-width: 300px;
   margin: 0 auto;
-  padding: 2em 1em;
+}
+
+/* CONTENT ---------- */
+header {
+	min-height: 60px;
+	width: 100%;
+	padding: 1em;
+	position: fixed;
+	background-color: rgb(255, 100, 43);
+}
+
+header li {
+	display: inline-block;
+	padding-right: 0.5em;
+	font-weight: 600;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo {
+	width: 150px;
+}
+
+/* Styles ----- */
+.font-white {
+	color: white;
+}
+
+.header-icon {
+	width: 15px;
+	margin: 0 5px;
 }
