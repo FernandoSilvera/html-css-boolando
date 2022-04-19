@@ -117,32 +117,6 @@ footer .icon {
 	margin-top: 5px;
 }
 
-/* STYLES ---------- */
-.font-white {
-	color: white;
-}
-
-.font-red {
-	color: red;
-}
-
-.bg-black {
-	background-color: rgb(26, 26, 26);
-}
-
-.bg-red {
-	background-color: red;
-}
-
-.bg-green {
-	background-color: green;
-}
-
-.linethrough {
-	text-decoration: line-through;
-}
-
-/* TEST TEST TEST TEST TEST */
 .favorite {
 	width: 40px;
 	position: absolute;
@@ -181,4 +155,29 @@ footer .icon {
 
 .product:hover .img-normal {
 	display: none;
+}
+
+/* STYLES ---------- */
+.font-white {
+	color: white;
+}
+
+.font-red {
+	color: red;
+}
+
+.bg-black {
+	background-color: rgb(26, 26, 26);
+}
+
+.bg-red {
+	background-color: red;
+}
+
+.bg-green {
+	background-color: green;
+}
+
+.linethrough {
+	text-decoration: line-through;
 }
