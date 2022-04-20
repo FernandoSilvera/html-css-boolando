@@ -29,6 +29,7 @@ main {
 .flex-row {
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .flex-col {
